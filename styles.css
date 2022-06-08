@@ -1,0 +1,39 @@
+body {background-color: Black;
+Color: white;
+font-family: 'Joan', serif; 
+background-image: url(https://wallpaperaccess.com/full/42613.jpg);
+background-attachment: fixed;
+background-size: cover;
+background-postion: center center;
+background-repeat: no repeat;}
+.container {width: 100;
+margin: 3.5em auto 0 0.8em}
+form {width: 620px;
+padding: 10px 20px;
+border-radius: 10px;}
+#title {font-size: 2em;
+margin-left: 20px}
+
+#description {margin-left: 90px;
+
+text-align: center;}
+
+header {width: 48%;
+border-radius: 10px;}
+
+.form-group{margin: 0 auto 0.25em auto;
+padding: 0.25em;}
+p {margin: 10px 0px;}
+.row p {margin-left: -2%;
+margin-bottom: 1%;
+margin-top: 2%}
+.form-check p {margin: 15px 0 0 -21px;
+
+}
+@medai screen and(max-width: 400px){
+  .container{margin: 10$ 0;}
+  form{width: 268px;}
+  header{ width: 268px;}
+  #title{font-size: 1.35em;
+  padding: 5px;}
+ #description{padding-bottom: 5%;}
